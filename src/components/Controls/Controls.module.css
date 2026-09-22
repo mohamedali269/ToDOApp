@@ -1,0 +1,19 @@
+.control {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  background-color: var(--bg-card);
+  border-bottom: 1px solid var(--border-color);
+  color: var(--text-main);
+  font-size: 16px;
+}
+.filter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+.active{
+  color: #3A7CFD;
+}

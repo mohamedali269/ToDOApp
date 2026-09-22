@@ -1,0 +1,25 @@
+.AddTask_form {
+  background-color: var(--bg-card);
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+ 
+}
+.AddTask_form input {
+  flex: 1;
+  padding: 15px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: var(--text-main);
+}
+.AddTask_form input::hover{
+    background-color: transparent;
+  border: none;
+}
+.AddTask_form button {
+  padding: 15px;
+  background-color: transparent;
+  border: none;
+  color: var(--text-main);
+}

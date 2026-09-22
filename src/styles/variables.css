@@ -1,0 +1,17 @@
+:root {
+  --bg-main: #171823;
+  --bg-card: #25273d;
+  --text-main: #c8cbe7;
+  --text-muted: #484b6a;
+  --border-color: #393a4b;
+  --primary-gradient: linear-gradient(135deg, #55ddff 0%, #c058f3 100%);
+}
+
+[data-theme="light"] {
+  --bg-main: #f2f2f2;         
+  --bg-card: #ffffff;        
+  --text-main: #494c6b;     
+  --text-muted: #9394a5;      
+  --border-color: #e3e4f5;   
+  --primary-gradient: linear-gradient(135deg, #55ddff 0%, #c058f3 100%);
+}
